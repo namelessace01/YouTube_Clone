@@ -10,11 +10,11 @@ import tech from '../../assets/tech.png'
 import music from '../../assets/music.png'
 import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
-// import jack from '../../assets/jack.png'
-// import simon from '../../assets/simon.png'
-// import tom from '../../assets/tom.png'
-// import megan from '../../assets/megan.png'
-// import cameron from '../../assets/cameron.png'
+import jack from '../../assets/jack.png'
+import simon from '../../assets/simon.png'
+import tom from '../../assets/tom.png'
+import megan from '../../assets/megan.png'
+import cameron from '../../assets/cameron.png'
 
 const Sidebar = () => {
     return (
@@ -48,6 +48,26 @@ const Sidebar = () => {
                     <img src={news} alt=""/><p>News</p>
                 </div>
                 <hr />
+                <div className="suscribed-list">
+                    <h3>
+                        Suscribed
+                    </h3>
+                    <div className="side-link">
+                        <img src={jack} alt="" /><p>PewDewPie</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={simon} alt="" /><p>Mr. Beast</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={tom} alt="" /><p>Something Beiber</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={megan} alt="" /><p>Five Minutes Craft</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={cameron} alt="" /><p>My lovelies</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
