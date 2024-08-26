@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React from "react"
 import './Sidebar.css'
 import home from '../../assets/home.png'
 import game_icon from '../../assets/game_icon.png'
@@ -58,6 +58,18 @@ const Sidebar = ({sidebar}) => {
                 </h3>
                 <div className="side-link">
                     <img src={jack} alt="" /><p>PewDewPie</p>
+                </div>
+                <div className="side-link">
+                    <img src={simon} alt="" /><p>Mr. Beast</p>
+                </div>
+                <div className="side-link">
+                    <img src={tom} alt="" /><p>Something Beiber</p>
+                </div>
+                <div className="side-link">
+                    <img src={megan} alt="" /><p>Five Minutes Craft</p>
+                </div>
+                <div className="side-link">
+                    <img src={cameron} alt="" /><p>My lovelies</p>
                 </div>
                 <div className="side-link">
                     <img src={simon} alt="" /><p>Mr. Beast</p>
