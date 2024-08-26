@@ -6,6 +6,7 @@
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
+    scrollbar-width: 105px;
 }
 
 .shortcut-links img {
@@ -36,7 +37,25 @@
 }
 
 .suscribed-list img {
-    width: 15%;
+    width: 25px;
     border-radius: 50%;
     margin-right: 15px;
+}
+
+.small-sidebar {
+    width: 5%;
+    margin-left: 5px;
+}
+
+.small-sidebar p {
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 50%;
+    margin-bottom: 50%;
+}
+
+.small-sidebar h3 {
+    display: none;
 }
