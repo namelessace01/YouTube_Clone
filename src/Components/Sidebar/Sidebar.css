@@ -1,11 +1,12 @@
 .sidebar {
     background: #ffff;
     width: 15%;
+    position:sticky;
     height: 120vh;
-    position: absolute;
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
+    
 }
 
 .shortcut-links img{

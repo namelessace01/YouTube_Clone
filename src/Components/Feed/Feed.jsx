@@ -62,6 +62,54 @@ const Feed = () => {
                 <h3>Great Stack</h3>
                 <p>150k views &bull; 2 days ago </p>
             </div>
+            <div className="cards">
+                <img src={thumbnail1} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail2} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail3} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail4} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail5} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail6} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail7} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
+            <div className="cards">
+                <img src={thumbnail8} alt="" />
+                <h2>Channel RoadMap To Become A Web Developer</h2>
+                <h3>Great Stack</h3>
+                <p>150k views &bull; 2 days ago </p>
+            </div>
         </div>
     )
 }
