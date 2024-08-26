@@ -1,8 +1,8 @@
 .sidebar {
     background: #ffff;
     width: 15%;
-    height: 100vh;
-    position: fixed;
+    height: 120vh;
+    position: absolute;
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
@@ -11,4 +11,32 @@
 .shortcut-links img{
     width: 20px;
     margin-right: 20px;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #cccc;
+    width: 85%;
+}
+
+.suscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.suscribed-list img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
